@@ -1,0 +1,863 @@
+CRITICAL - 2023-09-24 00:59:46 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\PlaylistController.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Controllers\\PlaylistController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PlaylistController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PlaylistController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\PlaylistController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 00:59:48 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\PlaylistController.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Controllers\\PlaylistController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PlaylistController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PlaylistController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\PlaylistController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 00:59:49 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\PlaylistController.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Controllers\\PlaylistController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PlaylistController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PlaylistController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\PlaylistController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 01:00:02 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\PlaylistController.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Controllers\\PlaylistController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PlaylistController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PlaylistController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\PlaylistController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 01:20:17 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 69.
+ 1 APPPATH\Views\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(12): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 01:21:29 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 69.
+ 1 APPPATH\Views\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(12): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 01:23:32 --> Invalid file: "playlist/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('playlist/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('playlist/index', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(15): view('playlist/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:12:37 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:14:10 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:14:13 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:14:39 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:16:26 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:16:29 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:19:03 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:20:35 --> Undefined variable $musicData
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicData', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:23:06 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:23:50 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:24:04 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:31:30 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:31:32 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:41:10 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:41:52 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:41:55 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:42:02 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:42:08 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:55:13 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 02:55:16 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 03:00:58 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 03:02:56 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 03:03:14 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 03:07:25 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 03:10:00 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 03:10:24 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 69.
+ 1 APPPATH\Views\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\SongController.php(15): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SongController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SongController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 03:12:34 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 69.
+ 1 APPPATH\Views\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\SongController.php(15): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SongController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SongController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 03:12:47 --> Undefined variable $musicNames
+in APPPATH\Views\index.php on line 160.
+ 1 APPPATH\Views\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicNames', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 160)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 06:33:54 --> Undefined array key "ID"
+in APPPATH\Views\index.php on line 151.
+ 1 APPPATH\Views\index.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 151)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(21): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:05 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('3')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:05 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('3')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:06 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('3')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:06 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('3')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:06 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:06 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:07 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:07 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:07 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:07 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:07 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:07 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:08 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:08 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:08 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:08 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:09 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:09 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:09 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:09 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:09 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:09 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+ERROR - 2023-09-24 10:56:09 --> mysqli_sql_exception: Unknown column 'PlaylistID' in 'where clause' in C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Moreno_3f3_mplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Moreno_3f3_mplayer\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Moreno_3f3_mplayer\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Moreno_3f3_mplayer\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Moreno_3f3_mplayer\app\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+#8 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+#9 C:\laragon\www\Moreno_3f3_mplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Moreno_3f3_mplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Moreno_3f3_mplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-24 10:56:09 --> Unknown column 'PlaylistID' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `songs`
+WHERE `PlaylistID` = :PlaylistID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PlaylistController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 10:59:57 --> Undefined property: App\Controllers\PlaylistController::$load
+in APPPATH\Controllers\PlaylistController.php on line 38.
+ 1 APPPATH\Controllers\PlaylistController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PlaylistController::$load', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Controllers\\PlaylistController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('4')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 10:59:59 --> Undefined property: App\Controllers\PlaylistController::$load
+in APPPATH\Controllers\PlaylistController.php on line 38.
+ 1 APPPATH\Controllers\PlaylistController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PlaylistController::$load', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Controllers\\PlaylistController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 11:00:09 --> Undefined property: App\Controllers\PlaylistController::$load
+in APPPATH\Controllers\PlaylistController.php on line 38.
+ 1 APPPATH\Controllers\PlaylistController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PlaylistController::$load', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Controllers\\PlaylistController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 11:00:21 --> Undefined property: App\Controllers\PlaylistController::$load
+in APPPATH\Controllers\PlaylistController.php on line 38.
+ 1 APPPATH\Controllers\PlaylistController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PlaylistController::$load', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Controllers\\PlaylistController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 11:04:12 --> syntax error, unexpected token "/"
+in APPPATH\Controllers\PlaylistController.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Controllers\\PlaylistController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PlaylistController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PlaylistController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\PlaylistController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 11:04:29 --> Call to undefined method App\Models\PlaylistModel::getSongsByPlaylistId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\PlaylistController.php(41): CodeIgniter\Model->__call('getSongsByPlaylistId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('3')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 11:05:35 --> Call to undefined method App\Models\PlaylistModel::getSongsByPlaylistId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\PlaylistController.php(41): CodeIgniter\Model->__call('getSongsByPlaylistId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 11:07:12 --> Call to undefined method App\Models\PlaylistModel::getSongsByPlaylistId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\PlaylistController.php(41): CodeIgniter\Model->__call('getSongsByPlaylistId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 11:07:13 --> Call to undefined method App\Models\PlaylistModel::getSongsByPlaylistId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\PlaylistController.php(41): CodeIgniter\Model->__call('getSongsByPlaylistId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 11:11:05 --> Call to undefined method App\Models\PlaylistModel::getSongsByPlaylistId
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\PlaylistController.php(41): CodeIgniter\Model->__call('getSongsByPlaylistId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->display('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 12:51:18 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 169.
+ 1 APPPATH\Views\index.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php', 169)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3_mplayer\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(21): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
+CRITICAL - 2023-09-24 12:55:28 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\laragon\\www\\Moreno_3f3_mplayer\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\laragon\\www\\Moreno_3f3_mplayer\\C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\uploads/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\laragon\\www\\Moreno_3f3_mplayer\\C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\uploads/')
+ 4 APPPATH\Controllers\SongController.php(35): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\Moreno_3f3_mplayer\\C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\uploads/', '1695560128_2018f1375bc0d6b2a03b.mp3')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SongController->store_song()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SongController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3_mplayer\\public\\index.php')
